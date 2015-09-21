@@ -1,0 +1,89 @@
+.cabecera {
+  background-color: beige;
+    width: 900px;
+    height: 147px;
+    margin-left: 212px;
+}
+
+.columnas {
+        width: 282px;
+    float: left;
+    background-color: cornflowerblue;
+    margin: 21px 11px 4px 1px;
+}
+
+.contenedor {
+    width: 900px;
+    margin-left: 212px;
+    
+}
+
+.thumbnails {
+  margin-left: -20px;
+  list-style: none;
+  *zoom: 1;
+}
+
+  .thumbnail .caption {
+  padding: 9px;
+  color: #555555;
+}
+.courses-cards {
+  margin-top: 2em;
+}
+.courses-cards .thumbnail {
+  padding: 0;
+  background: #fff;
+}
+.courses-cards .thumbnail img {
+  -webkit-border-top-right-radius: 3px;
+  -moz-border-radius-topright: 3px;
+  border-top-right-radius: 3px;
+  -webkit-border-top-left-radius: 3px;
+  -moz-border-radius-topleft: 3px;
+  border-top-left-radius: 3px;
+}
+.courses-cards .thumbnail .caption {
+  padding: 0 1em .5em;
+}
+.courses-cards .thumbnail .caption h3,
+.courses-cards .thumbnail .caption h4 {
+  text-transform: none;
+  line-height: 1.2em;
+  font-weight: 300;
+}
+.courses-cards .thumbnail .caption .meta {
+  *zoom: 1;
+  color: #999999;
+}
+.courses-cards .thumbnail .caption .meta:before,
+.courses-cards .thumbnail .caption .meta:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.courses-cards .thumbnail .caption .meta:after {
+  clear: both;
+}
+.courses-cards .thumbnail.ad {
+  background: #555555;
+}
+.courses-cards .thumbnail.ad .caption {
+  color: #eeeeee;
+  text-align: center;
+  padding: 1.5em 2em;
+  -webkit-box-shadow: inset 0 0 80px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: inset 0 0 80px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0 0 80px rgba(0, 0, 0, 0.3);
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.7);
+}
+.courses-cards .thumbnail.ad .caption h3 a {
+  color: #fff;
+}
+
+.container,
+.navbar-static-top .container,
+.navbar-fixed-top .container,
+.navbar-fixed-bottom .container {
+  width: 940px;
+}

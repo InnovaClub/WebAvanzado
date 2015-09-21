@@ -1,0 +1,98 @@
+
+@font-face{
+	font-family: 'oscar';
+	src:url('../font/letrita.ttf');
+}
+body
+{
+	background-image: url('../img/body1.jpg');
+	background-color: #52a1d2;
+	padding: 25px;
+	color: white;
+}
+h1 {
+	font-family: oscar;
+    color: white;
+    font-size: 60px;
+   
+}
+h2{
+	font-family: oscar;
+	color: black;
+	font-size: 35px;
+}
+p{
+
+	color: black;
+	font-size: 30px;
+}
+.contenedor
+{
+	width: 955px;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 100%;
+}
+
+.destacado
+{
+	background-image: url('../img/images.png');
+
+	padding: 50px;
+	text-align: center;
+	background-color: #2c79a9;
+	border-radius: 10px 21px 32px 43px;
+	text-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+	margin-bottom: 20px;
+}
+
+.destacado h1
+{
+	font-size: 40px;
+}
+
+.col 
+{
+	background-image: url('../img/col1.jpg');
+	width: 20%;
+	float: left;
+	background-color: #2c79a9;
+	margin-right: 1%;
+	-moz-box-shadow: -11px -15px 11px rgba(94, -52, 113, 18.5);
+	-webkit-box-shadow: -11px -15px 11px rgba(94, -52, 113, 18.5);
+	box-shadow: -11px -15px 11px rgba(94, -52, 113, 18.5);
+	margin-bottom: 10px;
+	margin-top: 10px;
+	padding: 2%;
+	border-radius: 10px 21px 32px 43px;
+}
+
+/*responsive design*/
+
+@media (max-width:767px)
+{
+.col 
+{
+	width: 45%;
+	}
+}
+
+@media (max-width:480px)
+{
+body
+{
+	background-image: none;
+	background-color: #52a1d2;
+	padding: 15px;
+}
+
+.col 
+{
+	background-image: none;
+	width: 100%;
+	}
+	h1 {
+    color: red;
+   
+}
+}
